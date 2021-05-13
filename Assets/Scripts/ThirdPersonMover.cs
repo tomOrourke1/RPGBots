@@ -9,9 +9,14 @@ public class ThirdPersonMover : MonoBehaviour
     [SerializeField] float _moveSpeed = 5f;
     
     Rigidbody _rigidbody;
+    Animator _animator;
 
-    void Awake() => _rigidbody = GetComponent<Rigidbody>();
-    
+    void Awake()
+    {
+        _rigidbody = GetComponent<Rigidbody>();
+        _animator = GetComponent<Animator>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,11 +36,15 @@ public class ThirdPersonMover : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
+        if (Input.GetKey(KeyCode.LeftShift))
+            vertical *= 2;
+
         var velocity = new Vector3(horizontal, 0, vertical);
         velocity *= _moveSpeed * Time.fixedDeltaTime;
 
         Vector3 offset = transform.rotation * velocity;
         _rigidbody.MovePosition(transform.position + offset);
         
+        _animator.SetFloat("Speed", vertical, 0.1f, Time.deltaTime);
     }
 }

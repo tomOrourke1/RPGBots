@@ -251,3 +251,251 @@ Received Import Request.
 Start importing Assets/ART/Robot/Robot.controller using Guid(f460ff18610b29943b28d1e5fcbe5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f0f075e3c6621dbd2abebe4e78bc48') in 0.005859 seconds
   Import took 0.007593 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001068 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1584.
+Total: 1.665700 ms (FindLiveObjects: 0.147200 ms CreateObjectMapping: 0.027800 ms MarkObjects: 1.433300 ms  DeleteObjects: 0.056300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.6 MB.
+System memory in use after: 71.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1586.
+Total: 1.779300 ms (FindLiveObjects: 0.164000 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.523500 ms  DeleteObjects: 0.059000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000979 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.8 MB.
+System memory in use after: 71.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1588.
+Total: 1.626800 ms (FindLiveObjects: 0.159000 ms CreateObjectMapping: 0.027600 ms MarkObjects: 1.384900 ms  DeleteObjects: 0.054300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 534.461219 seconds.
+  path: Assets/ART/Animations/Robot@Walking Backwards.fbx
+  artifactKey: Guid(3252b2760faed1f479198520dc90e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Animations/Robot@Walking Backwards.fbx using Guid(3252b2760faed1f479198520dc90e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b110f4c684b76a270610bb524e9a5473') in 0.027453 seconds
+  Import took 0.029873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007750 seconds.
+  path: Assets/ART/Animations/Robot@Walking Backwards.fbx
+  artifactKey: Guid(3252b2760faed1f479198520dc90e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Animations/Robot@Walking Backwards.fbx using Guid(3252b2760faed1f479198520dc90e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b110f4c684b76a270610bb524e9a5473') in 0.006545 seconds
+  Import took 0.008556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.740732 seconds.
+  path: Assets/ART/Animations/Robot@Walking Backwards.fbx
+  artifactKey: Guid(3252b2760faed1f479198520dc90e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Animations/Robot@Walking Backwards.fbx using Guid(3252b2760faed1f479198520dc90e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54238a30be134ca7c9e18b0f7cddfc1f') in 0.006994 seconds
+  Import took 0.009263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.509918 seconds.
+  path: Assets/ART/Animations/Robot@Walking Backwards.fbx
+  artifactKey: Guid(3252b2760faed1f479198520dc90e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Animations/Robot@Walking Backwards.fbx using Guid(3252b2760faed1f479198520dc90e351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a8579ec97e032eefc2d83b5098b56b') in 0.006847 seconds
+  Import took 0.009174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.416784 seconds.
+  path: Assets/ART/Animations/Robot@Running.fbx
+  artifactKey: Guid(8b5f896eb8cb5684890cc5afbf940476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Animations/Robot@Running.fbx using Guid(8b5f896eb8cb5684890cc5afbf940476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b9e001a6e377ee781648658d815d14') in 0.007808 seconds
+  Import took 0.009975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003265 seconds.
+  path: Assets/ART/Animations/Robot@Running.fbx
+  artifactKey: Guid(8b5f896eb8cb5684890cc5afbf940476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Animations/Robot@Running.fbx using Guid(8b5f896eb8cb5684890cc5afbf940476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b9e001a6e377ee781648658d815d14') in 0.006725 seconds
+  Import took 0.008774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.083980 seconds.
+  path: Assets/ART/Animations/Robot@Running.fbx
+  artifactKey: Guid(8b5f896eb8cb5684890cc5afbf940476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Animations/Robot@Running.fbx using Guid(8b5f896eb8cb5684890cc5afbf940476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43af4a6e52c8ef9a51993cc8f8396037') in 0.006830 seconds
+  Import took 0.009260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.420666 seconds.
+  path: Assets/ART/Animations/Robot@Running.fbx
+  artifactKey: Guid(8b5f896eb8cb5684890cc5afbf940476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Animations/Robot@Running.fbx using Guid(8b5f896eb8cb5684890cc5afbf940476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8ea49979ebb578e76a84afdb75fc96') in 0.006636 seconds
+  Import took 0.009047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.512552 seconds.
+  path: Assets/ART/Robot/Robot.controller
+  artifactKey: Guid(f460ff18610b29943b28d1e5fcbe5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Robot/Robot.controller using Guid(f460ff18610b29943b28d1e5fcbe5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e485acfda3fd91b56280230d6bf19e68') in 0.007045 seconds
+  Import took 0.009392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002054 seconds.
+  path: Assets/ART/Robot/Robot.controller
+  artifactKey: Guid(f460ff18610b29943b28d1e5fcbe5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ART/Robot/Robot.controller using Guid(f460ff18610b29943b28d1e5fcbe5e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e485acfda3fd91b56280230d6bf19e68') in 0.006172 seconds
+  Import took 0.008176 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000925 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.9 MB.
+System memory in use after: 72.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1590.
+Total: 1.828200 ms (FindLiveObjects: 0.166000 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.563500 ms  DeleteObjects: 0.059400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000858 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.793 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.0 MB.
+System memory in use after: 72.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1592.
+Total: 1.710400 ms (FindLiveObjects: 0.152400 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.468100 ms  DeleteObjects: 0.058300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000844 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.812 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.3 MB.
+System memory in use after: 72.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1594.
+Total: 1.707900 ms (FindLiveObjects: 0.147600 ms CreateObjectMapping: 0.030600 ms MarkObjects: 1.470700 ms  DeleteObjects: 0.057900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000838 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.5 MB.
+System memory in use after: 72.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1596.
+Total: 1.594900 ms (FindLiveObjects: 0.151700 ms CreateObjectMapping: 0.026500 ms MarkObjects: 1.365800 ms  DeleteObjects: 0.050100 ms)
+
