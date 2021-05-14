@@ -10,9 +10,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMover.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LookAtCamera.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -64,6 +68,7 @@
       <workItem from="1620830512193" duration="1107000" />
       <workItem from="1620915829672" duration="2116000" />
       <workItem from="1620942818627" duration="20000" />
+      <workItem from="1621001772655" duration="763000" />
     </task>
     <servers />
   </component>
