@@ -17,6 +17,8 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMover.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LookAtCamera.cs" />
+      <option value="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs" />
+      <option value="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Ink/story.json" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -69,6 +71,7 @@
       <workItem from="1620915829672" duration="2116000" />
       <workItem from="1620942818627" duration="20000" />
       <workItem from="1621001772655" duration="1358000" />
+      <workItem from="1621260585001" duration="1222000" />
     </task>
     <servers />
   </component>
