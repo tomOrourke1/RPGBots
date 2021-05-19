@@ -12,6 +12,7 @@ public class DialogController : MonoBehaviour
     [SerializeField] TMP_Text _storyText;
     [SerializeField] Button[] _choiceButtons;
     private Story _story;
+    [SerializeField] Animator _animator;
 
 
     [ContextMenu("Start Dialog")]
@@ -27,7 +28,7 @@ public class DialogController : MonoBehaviour
         while (_story.canContinue)
         {
             storyTextBuilder.AppendLine(_story.Continue());
-            
+            HandleTags();
         }
 
         _storyText.SetText(storyTextBuilder);
@@ -50,6 +51,23 @@ public class DialogController : MonoBehaviour
                 
             }
         }
+
     }
 
+    private void HandleTags()
+    {
+        foreach (var tag in _story.currentTags)
+        {
+            Debug.Log(tag);
+            if (tag == "OpenDoor")
+            {
+                OpenDoor();
+            }
+        }
+    }
+
+    private void OpenDoor()
+    {
+        _animator.SetTrigger("Open");
+    }
 }
