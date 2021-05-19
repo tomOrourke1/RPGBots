@@ -4114,7 +4114,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20268
+  m_Name: pb_Mesh15862
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4646,6 +4646,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeeede275ebfca2489c215a05552f0f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _dialog: {fileID: 4900000, guid: 6cf48bb6d89824cc69e35b43f9a1aca6, type: 3}
+  _storyText: {fileID: 1710219864}
+  _choiceButtons:
+  - {fileID: 1998792329}
+  - {fileID: 1460866343}
+  - {fileID: 476234420}
+  - {fileID: 1450011996}
 --- !u!1 &1677006471
 GameObject:
   m_ObjectHideFlags: 0
