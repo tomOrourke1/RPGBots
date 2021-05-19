@@ -19,6 +19,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/DialogGiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -28,6 +29,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/LookAtCamera.cs" />
       <option value="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs" />
       <option value="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Ink/story.json" />
+      <option value="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/DialogGiver.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
     </changedPaths>
   </component>
@@ -82,7 +84,7 @@
       <workItem from="1620942818627" duration="20000" />
       <workItem from="1621001772655" duration="1358000" />
       <workItem from="1621260585001" duration="2251000" />
-      <workItem from="1621433069299" duration="997000" />
+      <workItem from="1621433069299" duration="1653000" />
     </task>
     <servers />
   </component>
