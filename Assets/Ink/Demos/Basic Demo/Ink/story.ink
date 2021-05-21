@@ -1,21 +1,14 @@
-- I looked at Monsieur Fogg 
-*   open the door please
-    Okay the door is opening #E.OpenGreenDoor
-*   ... and I could contain myself no longer.
-    'What is the purpose of our journey, Monsieur?'
-    'A wager,' he replied.
-    * *     'A wager!'[] I returned.
-            He nodded. 
-            * * *   'But surely that is foolishness!'
-            * * *  'A most serious matter then!'
-            - - -   He nodded again.
-            * * *   'But can we win?'
-                    'That is what we will endeavour to find out,' he answered.
-            * * *   'A modest wager, I trust?'
-                    'Twenty thousand pounds,' he replied, quite flatly.
-            * * *   I asked nothing further of him then[.], and after a final, polite cough, he offered nothing more to me. <>
-    * *     'Ah[.'],' I replied, uncertain what I thought.
-    - -     After that, <>
-*   ... but I said nothing[] and <>
-- we passed the day in silence.
+I've been waiting forever, I'm glad you're finally here.
+*   What? Why are you waiting for me?
+    -I need you to open that dooe for me. #E.ShowGreenDoor
+    * I'll try to do the door thing. -> instructions
+    * I don't like your door right now #E.ShowShoulderCam
+      Ahh okay, bye then, you creep. -> END
+    
+== instructions ==
+ Go to the panel, it's in the back room. #E.ShowBackRoom
+    * Why can't you do that?
+        I'm too Wide...
+        * * Okay, I'm on it. #E.ShowShoulderCam
+            THanks -> END 
 - -> END
