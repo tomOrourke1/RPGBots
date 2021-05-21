@@ -10,6 +10,7 @@ public class ThirdPersonMover : MonoBehaviour
     
     Rigidbody _rigidbody;
     Animator _animator;
+    private float _mouseMovement;
 
     void Awake()
     {
@@ -24,15 +25,13 @@ public class ThirdPersonMover : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        var mouseMovement = Input.GetAxis("Mouse X");
-        transform.Rotate(0, mouseMovement * Time.deltaTime * _turnSpeed, 0);
-        
-    }
+    void Update() => _mouseMovement += Input.GetAxis("Mouse X");
 
     void FixedUpdate()
     {
+        transform.Rotate(0, _mouseMovement * Time.deltaTime * _turnSpeed, 0);
+        _mouseMovement = 0;
+        
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
