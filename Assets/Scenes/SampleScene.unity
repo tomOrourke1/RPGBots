@@ -6490,7 +6490,6 @@ MonoBehaviour:
   - {fileID: 1460866343}
   - {fileID: 476234420}
   - {fileID: 1450011996}
-  _animator: {fileID: 617014124}
 --- !u!225 &1667146931
 CanvasGroup:
   m_ObjectHideFlags: 0

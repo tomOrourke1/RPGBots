@@ -30,9 +30,9 @@
       <option value="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Ink/story.json" />
       <option value="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/DialogGiver.cs" />
       <option value="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/GameEvents/GameEventListener.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
       <option value="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/GameEvents/GameEvent.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMover.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -88,7 +88,7 @@
       <workItem from="1621260585001" duration="2251000" />
       <workItem from="1621433069299" duration="3655000" />
       <workItem from="1621520443759" duration="2132000" />
-      <workItem from="1621602610555" duration="1247000" />
+      <workItem from="1621602610555" duration="1611000" />
     </task>
     <servers />
   </component>
