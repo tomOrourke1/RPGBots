@@ -22,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/DialogGiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/QuestManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -36,6 +37,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quests/QuestManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -93,7 +95,8 @@
       <workItem from="1621520443759" duration="2132000" />
       <workItem from="1621602610555" duration="2779000" />
       <workItem from="1621623850252" duration="817000" />
-      <workItem from="1621861453077" duration="2240000" />
+      <workItem from="1621861453077" duration="3116000" />
+      <workItem from="1621872226777" duration="677000" />
     </task>
     <servers />
   </component>
