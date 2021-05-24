@@ -452,3 +452,44 @@ System memory in use after: 82.5 MB.
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2224.
 Total: 2.725200 ms (FindLiveObjects: 0.319100 ms CreateObjectMapping: 0.047500 ms MarkObjects: 2.248400 ms  DeleteObjects: 0.109300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 582.115624 seconds.
+  path: Assets/Asset Packs/UI Art
+  artifactKey: Guid(f7cd3cb2fed2a6544ba0a1f4c9ec1b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/UI Art using Guid(f7cd3cb2fed2a6544ba0a1f4c9ec1b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509367b1581713247abe97a1d0e32df2') in 0.008013 seconds
+  Import took 0.011297 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001205 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1751 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 83.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 2.479900 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.116600 ms  DeleteObjects: 0.101200 ms)
+
