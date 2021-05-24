@@ -19,6 +19,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/DialogGiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs" root0="FORCE_HIGHLIGHTING" />
@@ -34,6 +35,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMover.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -91,7 +93,7 @@
       <workItem from="1621520443759" duration="2132000" />
       <workItem from="1621602610555" duration="2779000" />
       <workItem from="1621623850252" duration="817000" />
-      <workItem from="1621861453077" duration="312000" />
+      <workItem from="1621861453077" duration="2240000" />
     </task>
     <servers />
   </component>
