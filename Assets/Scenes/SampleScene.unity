@@ -4606,7 +4606,6 @@ GameObject:
   - component: {fileID: 829495965}
   - component: {fileID: 829495967}
   - component: {fileID: 829495966}
-  - component: {fileID: 829495968}
   m_Layer: 0
   m_Name: NPC Drone
   m_TagString: Untagged
@@ -4655,20 +4654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3f547fa71616b4439ffe26fa178b02d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialog: {fileID: 4900000, guid: 6cf48bb6d89824cc69e35b43f9a1aca6, type: 3}
---- !u!114 &829495968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829495964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f4955e5f6404b56a188d09e1dd4edd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _quest: {fileID: 11400000, guid: c0ffe1fe47c30de44bdadd9e5980ed7f, type: 2}
+  _dialog: {fileID: 4900000, guid: 0698b56bb83587c40bbc5cb2c5238863, type: 3}
 --- !u!1 &836637574
 GameObject:
   m_ObjectHideFlags: 0
@@ -8855,7 +8841,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667146925}
   m_Enabled: 1
-  m_Alpha: 0.5
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -8889,6 +8875,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _questPanel: {fileID: 1093468373}
+  _allQuests:
+  - {fileID: 11400000, guid: c0ffe1fe47c30de44bdadd9e5980ed7f, type: 2}
 --- !u!4 &1674577212
 Transform:
   m_ObjectHideFlags: 0
