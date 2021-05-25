@@ -7,7 +7,9 @@ using UnityEngine.Serialization;
 [CreateAssetMenu(menuName = "Quest")]
 public class Quest : ScriptableObject
 {
-    [FormerlySerializedAs("_name")] [SerializeField] private string _displayName;
+    public event Action Progressed;
+    
+    [SerializeField] private string _displayName;
     [SerializeField] private string _description;
 
     [Tooltip("Designer / programmer notes, not visible to player.")]
@@ -23,7 +25,9 @@ public class Quest : ScriptableObject
     public string Description => _description;
     public string DisplayName => _displayName;
     public Sprite Sprite => _strite;
+    public Step CurrentStep => Steps[_currentStepIndex];
 
+    private void OnEnable() => _currentStepIndex = 0;
 
     public void TryProgress()
     {
@@ -31,6 +35,7 @@ public class Quest : ScriptableObject
         if (currentStep.HasAllObjectivesCompleted())
         {
             _currentStepIndex++;
+            Progressed?.Invoke();
             // do whatever we do when a quest progresses like update the UI
         }
     }
@@ -56,6 +61,8 @@ public class Step
 public class Objective
 {
     [SerializeField] private ObjectiveType _objectiveType;
+    [SerializeField] GameFlag _gameFlag;
+
     public enum ObjectiveType
     {
         Flag, 
@@ -63,7 +70,25 @@ public class Objective
         Kill
     }
 
-    public bool IsCompleted { get; }
+    public bool IsCompleted
+    {
+        get
+        {
+            switch (_objectiveType)
+            {
+                case ObjectiveType.Flag: return _gameFlag.Value;
+                default: return false;
+            }
+        }
+    }
 
-    public override string ToString() => _objectiveType.ToString();
+    public override string ToString()
+    {
+        switch (_objectiveType)
+        {
+            case ObjectiveType.Flag: return _gameFlag.name;
+            default: return _objectiveType.ToString();
+        }
+        
+    }
 }

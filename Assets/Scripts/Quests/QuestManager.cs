@@ -36,7 +36,8 @@ public class QuestManager : MonoBehaviour
             Debug.LogError($"Missing quest {questName} attempted to add from dialog");
         }
     }
-
+    
+    [ContextMenu("Progress Quests")]
     public void ProgressQuests()
     {
         foreach (var quest in _activeQuests)
