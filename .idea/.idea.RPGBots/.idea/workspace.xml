@@ -37,11 +37,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMover.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/ToggleablePanel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Quests/QuestManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameFlagTriggerArea.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quests/QuestManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -103,7 +103,7 @@
       <workItem from="1621872226777" duration="4176000" />
       <workItem from="1621947993690" duration="3793000" />
       <workItem from="1621958679432" duration="9000" />
-      <workItem from="1621958908671" duration="330000" />
+      <workItem from="1621958908671" duration="2304000" />
     </task>
     <servers />
   </component>

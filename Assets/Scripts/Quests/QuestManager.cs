@@ -16,9 +16,9 @@ public class QuestManager : MonoBehaviour
     public static QuestManager Instance { get; private set; }
 
     private void Awake() => Instance = this;
-    void Start() => GameFlag.AnyChanged += ProgressQuests;
-    void OnDestroy() => GameFlag.AnyChanged -= ProgressQuests;
 
+    
+    
     public void AddQuest(Quest quest)
     {
         _activeQuests.Add(quest);
@@ -38,14 +38,5 @@ public class QuestManager : MonoBehaviour
             Debug.LogError($"Missing quest {questName} attempted to add from dialog");
         }
     }
-    
-    [ContextMenu("Progress Quests")]
-    public void ProgressQuests()
-    {
-        foreach (var quest in _activeQuests)
-        {
-            quest.TryProgress();
-        }
-    }
-    
+
 }

@@ -7,7 +7,7 @@ using UnityEngine.UIElements;
 [CreateAssetMenu(menuName = "Bool Game Flag")]
 public class GameFlag : ScriptableObject
 {
-    public static event Action AnyChanged;
+    public event Action Changed;
     public bool Value { get; private set; }
 
     private void OnEnable() => Value = default;
@@ -17,6 +17,6 @@ public class GameFlag : ScriptableObject
     {
         Value = value;
 
-        AnyChanged?.Invoke();
+        Changed?.Invoke();
     }
 }

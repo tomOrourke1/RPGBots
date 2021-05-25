@@ -21,6 +21,8 @@ MonoBehaviour:
     objectives:
     - _objectiveType: 0
       _gameFlag: {fileID: 11400000, guid: 82337fbf2420752479e7b14fd031d01a, type: 2}
+    - _objectiveType: 0
+      _gameFlag: {fileID: 11400000, guid: 35bbf0905c28bf040a5c58713b4ecd44, type: 2}
   - _instructions: Go look the door maybe
     objectives:
     - _objectiveType: 0
