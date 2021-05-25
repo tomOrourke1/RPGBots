@@ -19,6 +19,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/DialogGiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,6 +40,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/QuestManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -98,7 +100,7 @@
       <workItem from="1621623850252" duration="817000" />
       <workItem from="1621861453077" duration="3116000" />
       <workItem from="1621872226777" duration="4176000" />
-      <workItem from="1621947993690" duration="1565000" />
+      <workItem from="1621947993690" duration="2013000" />
     </task>
     <servers />
   </component>
