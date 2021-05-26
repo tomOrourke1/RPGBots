@@ -2,12 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class GameFlagTriggerArea : MonoBehaviour
 {
-    [SerializeField] private GameFlag _gameFlag;
+    [SerializeField] private BoolGameFlag boolGameFlag;
     private void OnTriggerEnter(Collider other)
     {
-        _gameFlag.Set(true);
+        boolGameFlag.Set(true);
     }
 }

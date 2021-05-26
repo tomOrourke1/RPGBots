@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 
 [CreateAssetMenu(menuName = "Bool Game Flag")]
-public class GameFlag : ScriptableObject
+public class BoolGameFlag : ScriptableObject
 {
     public event Action Changed;
     public bool Value { get; private set; }

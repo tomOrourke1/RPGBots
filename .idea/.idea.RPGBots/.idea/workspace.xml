@@ -19,7 +19,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Flags/BoolGameFlag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/DialogGiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -37,11 +38,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMover.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/ToggleablePanel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameFlagTriggerArea.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/QuestManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/BoolGameFlag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameFlagTriggerArea.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/IntGameFlag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -103,7 +106,8 @@
       <workItem from="1621872226777" duration="4176000" />
       <workItem from="1621947993690" duration="3793000" />
       <workItem from="1621958679432" duration="9000" />
-      <workItem from="1621958908671" duration="2304000" />
+      <workItem from="1621958908671" duration="2833000" />
+      <workItem from="1622034374665" duration="1948000" />
     </task>
     <servers />
   </component>

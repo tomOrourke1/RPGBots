@@ -35,9 +35,13 @@ public class Quest : ScriptableObject
         {
             foreach (var objective in step.objectives)
             {
-                if (objective.GameFlag != null)
+                if (objective.BoolGameFlag != null)
                 {
-                    objective.GameFlag.Changed += HandleFlagChanged;
+                    objective.BoolGameFlag.Changed += HandleFlagChanged;
+                }
+                if (objective.IntGameFlag != null)
+                {
+                    objective.IntGameFlag.Changed += HandleFlagChanged;
                 }
             }
         }
@@ -81,14 +85,21 @@ public class Step
 public class Objective
 {
     [SerializeField] private ObjectiveType _objectiveType;
-    [SerializeField] GameFlag _gameFlag;
+    [SerializeField] BoolGameFlag boolGameFlag;
 
-    
-    public GameFlag GameFlag => _gameFlag;
+    [Header("Int Game Flags")]
+    [SerializeField] IntGameFlag intGameFlag;
+    [Tooltip("Required amount for the counted integer game flag.")]
+    [SerializeField] int _required;
+
+
+    public BoolGameFlag BoolGameFlag => boolGameFlag;
+    public IntGameFlag IntGameFlag => intGameFlag;
     
     public enum ObjectiveType
     {
-        Flag, 
+        BoolFlag, 
+        CountedIntFlag,
         Item,
         Kill
     }
@@ -99,7 +110,8 @@ public class Objective
         {
             switch (_objectiveType)
             {
-                case ObjectiveType.Flag: return _gameFlag.Value;
+                case ObjectiveType.BoolFlag: return boolGameFlag.Value;
+                case ObjectiveType.CountedIntFlag: return intGameFlag.Value >= _required;
                 default: return false;
             }
         }
@@ -110,7 +122,8 @@ public class Objective
     {
         switch (_objectiveType)
         {
-            case ObjectiveType.Flag: return _gameFlag.name;
+            case ObjectiveType.BoolFlag: return boolGameFlag.name;
+            case ObjectiveType.CountedIntFlag: return $"{intGameFlag.name} ({intGameFlag.Value} / {_required})";
             default: return _objectiveType.ToString();
         }
         
