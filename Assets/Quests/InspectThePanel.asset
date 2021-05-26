@@ -19,23 +19,19 @@ MonoBehaviour:
   Steps:
   - _instructions: Investigate Broken Panels
     objectives:
-    - _objectiveType: 1
-      boolGameFlag: {fileID: 0}
-      intGameFlag: {fileID: 11400000, guid: c738b5288e68f9e459e5f63078084a72, type: 2}
+    - _objectiveType: 0
+      _gameFlag: {fileID: 11400000, guid: c738b5288e68f9e459e5f63078084a72, type: 2}
       _required: 3
   - _instructions: Go look at the panel
     objectives:
     - _objectiveType: 0
-      boolGameFlag: {fileID: 11400000, guid: 82337fbf2420752479e7b14fd031d01a, type: 2}
-      intGameFlag: {fileID: 0}
+      _gameFlag: {fileID: 11400000, guid: 82337fbf2420752479e7b14fd031d01a, type: 2}
       _required: 0
     - _objectiveType: 0
-      boolGameFlag: {fileID: 11400000, guid: 35bbf0905c28bf040a5c58713b4ecd44, type: 2}
-      intGameFlag: {fileID: 0}
+      _gameFlag: {fileID: 11400000, guid: 35bbf0905c28bf040a5c58713b4ecd44, type: 2}
       _required: 0
   - _instructions: Go look the door maybe
     objectives:
     - _objectiveType: 0
-      boolGameFlag: {fileID: 11400000, guid: 011e8bf4f1ee69543af25b4df88d1c12, type: 2}
-      intGameFlag: {fileID: 0}
+      _gameFlag: {fileID: 11400000, guid: 011e8bf4f1ee69543af25b4df88d1c12, type: 2}
       _required: 0

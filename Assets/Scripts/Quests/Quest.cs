@@ -35,14 +35,11 @@ public class Quest : ScriptableObject
         {
             foreach (var objective in step.objectives)
             {
-                if (objective.BoolGameFlag != null)
+                if (objective.GameFlag != null)
                 {
-                    objective.BoolGameFlag.Changed += HandleFlagChanged;
+                    objective.GameFlag.Changed += HandleFlagChanged;
                 }
-                if (objective.IntGameFlag != null)
-                {
-                    objective.IntGameFlag.Changed += HandleFlagChanged;
-                }
+                
             }
         }
     }
@@ -78,54 +75,5 @@ public class Step
     public bool HasAllObjectivesCompleted()
     {
         return objectives.TrueForAll(t => t.IsCompleted);
-    }
-}
-
-[Serializable]
-public class Objective
-{
-    [SerializeField] private ObjectiveType _objectiveType;
-    [SerializeField] BoolGameFlag boolGameFlag;
-
-    [Header("Int Game Flags")]
-    [SerializeField] IntGameFlag intGameFlag;
-    [Tooltip("Required amount for the counted integer game flag.")]
-    [SerializeField] int _required;
-
-
-    public BoolGameFlag BoolGameFlag => boolGameFlag;
-    public IntGameFlag IntGameFlag => intGameFlag;
-    
-    public enum ObjectiveType
-    {
-        BoolFlag, 
-        CountedIntFlag,
-        Item,
-        Kill
-    }
-
-    public bool IsCompleted
-    {
-        get
-        {
-            switch (_objectiveType)
-            {
-                case ObjectiveType.BoolFlag: return boolGameFlag.Value;
-                case ObjectiveType.CountedIntFlag: return intGameFlag.Value >= _required;
-                default: return false;
-            }
-        }
-    }
-
-
-    public override string ToString()
-    {
-        switch (_objectiveType)
-        {
-            case ObjectiveType.BoolFlag: return boolGameFlag.name;
-            case ObjectiveType.CountedIntFlag: return $"{intGameFlag.name} ({intGameFlag.Value} / {_required})";
-            default: return _objectiveType.ToString();
-        }
-        
     }
 }
