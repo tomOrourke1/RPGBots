@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -6,14 +7,22 @@ using System.Linq;
 public class FlagManager : MonoBehaviour
 {
     [SerializeField] private List<GameFlag> _allFlags;
+    private Dictionary<string, GameFlag> _flagsByName;
     public static FlagManager Instance { get; private set; }
 
     private void Awake() => Instance = this;
 
+    private void Start()
+    {
+        _flagsByName = _allFlags.ToDictionary(
+            k => k.name.Replace(" ", ""), 
+            v => v);
+        
+    }
+
     public void Set(string flagName, string value)
     {
-        var flag = _allFlags.FirstOrDefault(t => t.name.Replace(" ", "") == flagName);
-        if (flag == null)
+        if(_flagsByName.TryGetValue(flagName, out var flag) == false)
         {
             Debug.LogError($"Flag not found {flagName}");
             return;
