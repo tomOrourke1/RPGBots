@@ -11,4 +11,11 @@ public class IntGameFlag : GameFlag<int>
 
         SendChanged();
     }
+
+    public void Set(int value)
+    {
+        Value = value;
+
+        SendChanged();
+    }
 }

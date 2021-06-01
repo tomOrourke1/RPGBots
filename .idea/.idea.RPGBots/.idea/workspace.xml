@@ -36,7 +36,6 @@
       <option value="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/GameEvents/GameEvent.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ThirdPersonMover.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/ToggleablePanel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/QuestManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameFlagTriggerArea.cs" />
@@ -44,9 +43,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Objective.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/IntGameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/DecimalGameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/StringGameFlag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/IntGameFlag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/FlagManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -111,7 +112,7 @@
       <workItem from="1621958908671" duration="2833000" />
       <workItem from="1622034374665" duration="4124000" />
       <workItem from="1622052630242" duration="500000" />
-      <workItem from="1622552901776" duration="486000" />
+      <workItem from="1622552901776" duration="2118000" />
     </task>
     <servers />
   </component>
