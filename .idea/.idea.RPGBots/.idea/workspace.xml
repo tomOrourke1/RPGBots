@@ -20,11 +20,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Flags/BoolGameFlag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/4d/9b114f3f/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/DialogGiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/QuestManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Ink/Editor/Core/Ink Library/InkLibrary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E414E10B-FE5F-4572-9FF1-22F3359DE21B/2d/ca3730c0/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -48,6 +50,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/StringGameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/BoolGameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/FlagManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/Extensions.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -113,7 +116,7 @@
       <workItem from="1622034374665" duration="4124000" />
       <workItem from="1622052630242" duration="500000" />
       <workItem from="1622552901776" duration="3703000" />
-      <workItem from="1622639276191" duration="1727000" />
+      <workItem from="1622639276191" duration="2931000" />
     </task>
     <servers />
   </component>

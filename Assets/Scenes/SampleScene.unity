@@ -155,10 +155,10 @@ MonoBehaviour:
   _allFlags:
   - {fileID: 11400000, guid: 35bbf0905c28bf040a5c58713b4ecd44, type: 2}
   - {fileID: 11400000, guid: c738b5288e68f9e459e5f63078084a72, type: 2}
-  - {fileID: 11400000, guid: 82337fbf2420752479e7b14fd031d01a, type: 2}
-  - {fileID: 11400000, guid: 011e8bf4f1ee69543af25b4df88d1c12, type: 2}
   - {fileID: 11400000, guid: 216dd37584d6fa44a82f94e1dc6f665c, type: 2}
   - {fileID: 11400000, guid: 7d5fdbdfad3d5684789c964abaa9027f, type: 2}
+  - {fileID: 11400000, guid: 82337fbf2420752479e7b14fd031d01a, type: 2}
+  - {fileID: 11400000, guid: 011e8bf4f1ee69543af25b4df88d1c12, type: 2}
 --- !u!4 &9141385
 Transform:
   m_ObjectHideFlags: 0
