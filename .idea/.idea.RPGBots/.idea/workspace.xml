@@ -39,15 +39,15 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/QuestPanel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/QuestManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameFlagTriggerArea.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/BoolGameFlag.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Objective.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/DecimalGameFlag.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/StringGameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/IntGameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/FlagManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/DecimalGameFlag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/IntGameFlag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/StringGameFlag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/BoolGameFlag.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -112,7 +112,8 @@
       <workItem from="1621958908671" duration="2833000" />
       <workItem from="1622034374665" duration="4124000" />
       <workItem from="1622052630242" duration="500000" />
-      <workItem from="1622552901776" duration="2574000" />
+      <workItem from="1622552901776" duration="3703000" />
+      <workItem from="1622639276191" duration="892000" />
     </task>
     <servers />
   </component>

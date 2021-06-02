@@ -123,6 +123,56 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &9141383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9141385}
+  - component: {fileID: 9141384}
+  m_Layer: 0
+  m_Name: '[FLAG MANAGER]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &9141384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9141383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14de03f41c5d444cad29e1d79b600b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _allFlags:
+  - {fileID: 11400000, guid: 35bbf0905c28bf040a5c58713b4ecd44, type: 2}
+  - {fileID: 11400000, guid: c738b5288e68f9e459e5f63078084a72, type: 2}
+  - {fileID: 11400000, guid: 82337fbf2420752479e7b14fd031d01a, type: 2}
+  - {fileID: 11400000, guid: 011e8bf4f1ee69543af25b4df88d1c12, type: 2}
+  - {fileID: 11400000, guid: 216dd37584d6fa44a82f94e1dc6f665c, type: 2}
+  - {fileID: 11400000, guid: 7d5fdbdfad3d5684789c964abaa9027f, type: 2}
+--- !u!4 &9141385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9141383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &12355870
 GameObject:
   m_ObjectHideFlags: 0
