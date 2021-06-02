@@ -2,11 +2,12 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 
 
 public class FlagManager : MonoBehaviour
 {
-    [SerializeField] private List<GameFlag> _allFlags;
+    [SerializeField] private GameFlag[] _allFlags;
     private Dictionary<string, GameFlag> _flagsByName;
     public static FlagManager Instance { get; private set; }
 
@@ -19,6 +20,22 @@ public class FlagManager : MonoBehaviour
             v => v);
         
     }
+
+    private void OnValidate() => _allFlags = GetAllInstances<GameFlag>();
+
+    public static T[] GetAllInstances<T>() where T : ScriptableObject
+    {
+        string[] guids = AssetDatabase.FindAssets("t:" + typeof(T).Name);
+        T[] a = new T[guids.Length];
+        for (int i = 0; i < guids.Length; i++)
+        {
+            string path = AssetDatabase.GUIDToAssetPath(guids[i]);
+            a[i] = AssetDatabase.LoadAssetAtPath<T>(path);
+        }
+
+        return a;
+    }
+    
 
     public void Set(string flagName, string value)
     {
