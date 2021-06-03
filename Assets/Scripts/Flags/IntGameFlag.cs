@@ -5,11 +5,11 @@ using UnityEngine;
 public class IntGameFlag : GameFlag<int>
 {
     
-    public void Modify(int value)
-    {
-        Value += value;
+    public void Modify(int value) => Set(Value + value);
 
-        SendChanged();
+    protected override void SetFromData(string value)
+    {
+        if(int.TryParse(value, out var intValue))
+            Set(intValue);
     }
-    
 }
