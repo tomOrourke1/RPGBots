@@ -15,11 +15,11 @@ C:/Users/Tom/Documents/!Game-MasteryCourse/RPGBots
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50590
+50270
 Successfully changed project path to: C:/Users/Tom/Documents/!Game-MasteryCourse/RPGBots
 C:/Users/Tom/Documents/!Game-MasteryCourse/RPGBots
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,62 +35,78 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004055 seconds.
+Registered in 0.004922 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 53.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.429 seconds
+- Completed reload, in  2.714 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001851 seconds.
+Registered in 0.001824 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
+- Completed reload, in  1.214 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.4 MB.
 System memory in use after: 86.4 MB.
 
-Unloading 103 unused Assets to reduce memory usage. Loaded Objects now: 2252.
-Total: 2.724400 ms (FindLiveObjects: 0.219300 ms CreateObjectMapping: 0.052700 ms MarkObjects: 2.235400 ms  DeleteObjects: 0.215600 ms)
+Unloading 103 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 3.406100 ms (FindLiveObjects: 0.407000 ms CreateObjectMapping: 0.076100 ms MarkObjects: 2.671900 ms  DeleteObjects: 0.247100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/UI/DialogController.cs
-  artifactKey: Guid(aeeede275ebfca2489c215a05552f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/DialogController.cs using Guid(aeeede275ebfca2489c215a05552f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c127146f87090f67a7b99bb2393b2504') in 0.034406 seconds
-  Import took 0.037494 seconds .
+  path: Assets/Scripts/Flags/GameFlag.cs
+  artifactKey: Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flags/GameFlag.cs using Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0fed5cda4e91f74571ea2018ccbc4a') in 0.039292 seconds
+  Import took 0.042806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.858128 seconds.
+  path: Assets/Scripts/Flags/GameFlag.cs
+  artifactKey: Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flags/GameFlag.cs using Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a6accd1020ea5deec24554feb9e2ce') in 0.004481 seconds
+  Import took 0.007562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/Scripts/Flags/GameFlag.cs
+  artifactKey: Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flags/GameFlag.cs using Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a6accd1020ea5deec24554feb9e2ce') in 0.004230 seconds
+  Import took 0.007019 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001445 seconds.
+Registered in 0.001440 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -105,25 +121,41 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
+- Completed reload, in  0.876 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1766 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 83.0 MB.
 System memory in use after: 83.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2255.
-Total: 2.772900 ms (FindLiveObjects: 0.243900 ms CreateObjectMapping: 0.058200 ms MarkObjects: 2.373800 ms  DeleteObjects: 0.094600 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2256.
+Total: 2.495900 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.043500 ms MarkObjects: 2.136600 ms  DeleteObjects: 0.082000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.780788 seconds.
+  path: Assets/Scripts/Flags/GameFlag.cs
+  artifactKey: Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flags/GameFlag.cs using Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4432aa7ecac79ca62d64eed878b74e4a') in 0.007805 seconds
+  Import took 0.011487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056255 seconds.
+  path: Assets/Scripts/Flags/GameFlag.cs
+  artifactKey: Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flags/GameFlag.cs using Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4432aa7ecac79ca62d64eed878b74e4a') in 0.004093 seconds
+  Import took 0.007015 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001185 seconds.
+Registered in 0.001230 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -138,25 +170,42 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
+- Completed reload, in  0.877 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1764 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.0 MB.
-System memory in use after: 84.0 MB.
+System memory in use after: 84.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2257.
-Total: 2.246300 ms (FindLiveObjects: 0.212500 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.911500 ms  DeleteObjects: 0.078300 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2258.
+Total: 2.218900 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.056000 ms MarkObjects: 1.879200 ms  DeleteObjects: 0.063100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.913165 seconds.
+  path: Assets/Scripts/Flags/GameFlag.cs
+  artifactKey: Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flags/GameFlag.cs using Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad9997a46c303d3712605d6c09df973') in 0.007799 seconds
+  Import took 0.010778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.214719 seconds.
+  path: Assets/Scripts/Flags/GameFlag.cs
+  artifactKey: Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flags/GameFlag.cs using Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000478 seconds
+  ERROR: Build asset version error: assets/scripts/flags/gameflag.cs in SourceAssetDB has modification time of '2021-06-03T13:06:36.6450034Z' while content on disk has modification time of '2021-06-03T13:07:21.5109165Z'
+  Import took 0.003242 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001289 seconds.
+Registered in 0.001204 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -171,25 +220,41 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.910 seconds
+- Completed reload, in  0.876 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1764 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 83.8 MB.
 System memory in use after: 83.9 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2259.
-Total: 2.843400 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.044500 ms MarkObjects: 2.480400 ms  DeleteObjects: 0.091000 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 2.872300 ms (FindLiveObjects: 0.287900 ms CreateObjectMapping: 0.053400 ms MarkObjects: 2.437200 ms  DeleteObjects: 0.092100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.966243 seconds.
+  path: Assets/Scripts/Flags/GameFlag.cs
+  artifactKey: Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flags/GameFlag.cs using Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14127cd07486299d70b3b01aafac92b5') in 0.006993 seconds
+  Import took 0.009899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004307 seconds.
+  path: Assets/Scripts/Flags/GameFlag.cs
+  artifactKey: Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flags/GameFlag.cs using Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14127cd07486299d70b3b01aafac92b5') in 0.004066 seconds
+  Import took 0.006877 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001210 seconds.
+Registered in 0.001222 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -204,25 +269,25 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
+- Completed reload, in  0.871 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1764 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.0 MB.
 System memory in use after: 84.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2261.
-Total: 2.515300 ms (FindLiveObjects: 0.234900 ms CreateObjectMapping: 0.046700 ms MarkObjects: 2.146900 ms  DeleteObjects: 0.084200 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2262.
+Total: 2.225200 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.913900 ms  DeleteObjects: 0.064000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001251 seconds.
+Registered in 0.001323 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -237,57 +302,41 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
+- Completed reload, in  0.860 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1764 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.0 MB.
 System memory in use after: 84.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2263.
-Total: 2.721200 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.322300 ms  DeleteObjects: 0.107000 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 2.869000 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.047800 ms MarkObjects: 2.530300 ms  DeleteObjects: 0.077100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 737.416782 seconds.
-  path: Assets/Game Flags/DroneName.asset
-  artifactKey: Guid(216dd37584d6fa44a82f94e1dc6f665c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Flags/DroneName.asset using Guid(216dd37584d6fa44a82f94e1dc6f665c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3850edd529786e43e3adcfa03af24d6c') in 0.015177 seconds
-  Import took 0.018813 seconds .
+  Time since last request: 53.467865 seconds.
+  path: Assets/Scripts/Flags/GameFlag.cs
+  artifactKey: Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flags/GameFlag.cs using Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7fd54b127a24a3ce8423870279c496') in 0.007536 seconds
+  Import took 0.010563 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.508341 seconds.
-  path: Assets/Game Flags/DroneSpeed.asset
-  artifactKey: Guid(7d5fdbdfad3d5684789c964abaa9027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Flags/DroneSpeed.asset using Guid(7d5fdbdfad3d5684789c964abaa9027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a161ea8d752336294dc0dfe4a052bfa') in 0.006156 seconds
-  Import took 0.009591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000892 seconds.
-  path: Assets/Game Flags/DroneSpeed.asset
-  artifactKey: Guid(7d5fdbdfad3d5684789c964abaa9027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Flags/DroneSpeed.asset using Guid(7d5fdbdfad3d5684789c964abaa9027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a161ea8d752336294dc0dfe4a052bfa') in 0.004664 seconds
-  Import took 0.007621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.951838 seconds.
-  path: Assets/Dialog/story 1.json
-  artifactKey: Guid(0698b56bb83587c40bbc5cb2c5238863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dialog/story 1.json using Guid(0698b56bb83587c40bbc5cb2c5238863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc3403e85b840e8fc46d0a3a5d10903') in 0.010835 seconds
-  Import took 0.014432 seconds .
+  Time since last request: 0.159605 seconds.
+  path: Assets/Scripts/Flags/GameFlag.cs
+  artifactKey: Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Flags/GameFlag.cs using Guid(909a14e1d5864e95b0d957457905d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7fd54b127a24a3ce8423870279c496') in 0.003924 seconds
+  Import took 0.006737 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001265 seconds.
+Registered in 0.001233 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -302,25 +351,25 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
+- Completed reload, in  0.873 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1764 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.0 MB.
 System memory in use after: 84.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2265.
-Total: 2.757300 ms (FindLiveObjects: 0.557700 ms CreateObjectMapping: 0.062800 ms MarkObjects: 2.052600 ms  DeleteObjects: 0.082400 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2266.
+Total: 2.379000 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.042200 ms MarkObjects: 2.081500 ms  DeleteObjects: 0.067700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001497 seconds.
+Registered in 0.001272 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -335,14 +384,137 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
+- Completed reload, in  0.881 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1764 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.0 MB.
 System memory in use after: 84.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2267.
-Total: 2.482500 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.046200 ms MarkObjects: 2.108900 ms  DeleteObjects: 0.082300 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 2.357600 ms (FindLiveObjects: 0.204500 ms CreateObjectMapping: 0.045600 ms MarkObjects: 2.038900 ms  DeleteObjects: 0.067500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001250 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.0 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2270.
+Total: 2.194400 ms (FindLiveObjects: 0.194700 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.892200 ms  DeleteObjects: 0.064800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.0 MB.
+System memory in use after: 84.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2272.
+Total: 2.527600 ms (FindLiveObjects: 0.216200 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.185400 ms  DeleteObjects: 0.079700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 573.475873 seconds.
+  path: Assets/Game Flags/Activate The Control Panel.asset
+  artifactKey: Guid(35bbf0905c28bf040a5c58713b4ecd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Flags/Activate The Control Panel.asset using Guid(35bbf0905c28bf040a5c58713b4ecd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72718b0e02adf551e8a589e8f4ec675') in 0.013204 seconds
+  Import took 0.016150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.803177 seconds.
+  path: Assets/Game Flags/Look At the Control Panel.asset
+  artifactKey: Guid(82337fbf2420752479e7b14fd031d01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Flags/Look At the Control Panel.asset using Guid(82337fbf2420752479e7b14fd031d01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d544eed4581d75a9a5f776cbbefa00') in 0.005627 seconds
+  Import took 0.008554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000922 seconds.
+  path: Assets/Game Flags/Look At the Control Panel.asset
+  artifactKey: Guid(82337fbf2420752479e7b14fd031d01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Flags/Look At the Control Panel.asset using Guid(82337fbf2420752479e7b14fd031d01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d544eed4581d75a9a5f776cbbefa00') in 0.004833 seconds
+  Import took 0.007459 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001345 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.8 MB.
+System memory in use after: 83.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 2.483100 ms (FindLiveObjects: 0.204400 ms CreateObjectMapping: 0.042800 ms MarkObjects: 2.169100 ms  DeleteObjects: 0.065800 ms)
 
