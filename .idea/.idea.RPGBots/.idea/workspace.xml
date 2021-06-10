@@ -55,9 +55,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Persistance/GamePersistance.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/BoolGameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/Inspectable.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/InspectionPanel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/InspectionManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/Inspectable.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -127,7 +127,8 @@
       <workItem from="1622725483264" duration="3526000" />
       <workItem from="1622736074950" duration="3178000" />
       <workItem from="1623245649084" duration="1804000" />
-      <workItem from="1623330959316" duration="1760000" />
+      <workItem from="1623330959316" duration="2900000" />
+      <workItem from="1623341686061" duration="304000" />
     </task>
     <servers />
   </component>
