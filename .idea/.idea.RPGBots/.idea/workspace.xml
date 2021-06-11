@@ -47,16 +47,16 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Quests/Objective.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/DialogController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/Extensions.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Persistance/GameData.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/StringGameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/DecimalGameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/IntGameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/FlagManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Persistance/GamePersistance.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/BoolGameFlag.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/InspectionPanel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Persistance/GameData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/InspectionManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Persistance/GamePersistance.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/Inspectable.cs" />
     </changedPaths>
   </component>
@@ -128,7 +128,9 @@
       <workItem from="1622736074950" duration="3178000" />
       <workItem from="1623245649084" duration="1804000" />
       <workItem from="1623330959316" duration="2900000" />
-      <workItem from="1623341686061" duration="1257000" />
+      <workItem from="1623341686061" duration="2894000" />
+      <workItem from="1623357788926" duration="115000" />
+      <workItem from="1623418873004" duration="864000" />
     </task>
     <servers />
   </component>
