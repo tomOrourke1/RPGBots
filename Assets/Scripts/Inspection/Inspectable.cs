@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -13,13 +14,15 @@ public class Inspectable : MonoBehaviour
 
     [SerializeField] private float _timeToInspect = 3f;
     [SerializeField] private UnityEvent OnInspectionCompleted;
-    [SerializeField] private Inspectable _required;
     
     InspectableData _data;
+    private MetInspectedCondition[] _allConditions;
     public bool WasFullyInspected => InspectionProgress >= 1f;
     public float InspectionProgress => _data.TimeInspected / _timeToInspect;
 
-    public bool MeetsConditions => _required == null || _required.WasFullyInspected;
+    
+
+    private void Awake() => _allConditions = GetComponents<MetInspectedCondition>();
 
     public void Bind(InspectableData inspectableData)
     {
@@ -32,11 +35,22 @@ public class Inspectable : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && WasFullyInspected == false && MeetsConditions)
+        if (other.CompareTag("Player") && WasFullyInspected == false && MeetsConditions())
         {
             _inspectablesInRange.Add(this);
             InspectablesInRangeChanged?.Invoke(true);
         }
+    }
+    public bool MeetsConditions()
+    {
+        
+        foreach (var condition in _allConditions)
+        {
+            if (condition.Met() == false)
+                return false;
+        }
+
+        return true;
     }
 
     private void OnTriggerExit(Collider other)

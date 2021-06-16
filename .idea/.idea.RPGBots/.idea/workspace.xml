@@ -57,6 +57,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Flags/GameFlag.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/InspectionManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Persistance/GamePersistance.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/MetInspectedCondition.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/Inspectable.cs" />
     </changedPaths>
   </component>
