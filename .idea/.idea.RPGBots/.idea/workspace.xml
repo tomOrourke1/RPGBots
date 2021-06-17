@@ -59,6 +59,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Persistance/GamePersistance.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/MetInspectedCondition.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/Inspectable.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Inspection/MetBoolFlagCondition.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sRLYagKFCg4YVVqrWWWPnZTDAe" />
@@ -133,6 +134,7 @@
       <workItem from="1623357788926" duration="115000" />
       <workItem from="1623418873004" duration="1165000" />
       <workItem from="1623849482229" duration="359000" />
+      <workItem from="1623947044736" duration="803000" />
     </task>
     <servers />
   </component>

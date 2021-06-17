@@ -16,13 +16,13 @@ public class Inspectable : MonoBehaviour
     [SerializeField] private UnityEvent OnInspectionCompleted;
     
     InspectableData _data;
-    private MetInspectedCondition[] _allConditions;
+    private IMet[] _allConditions;
     public bool WasFullyInspected => InspectionProgress >= 1f;
     public float InspectionProgress => _data.TimeInspected / _timeToInspect;
 
     
 
-    private void Awake() => _allConditions = GetComponents<MetInspectedCondition>();
+    private void Awake() => _allConditions = GetComponents<IMet>();
 
     public void Bind(InspectableData inspectableData)
     {

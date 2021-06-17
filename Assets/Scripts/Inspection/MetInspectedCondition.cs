@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 
 
-
-public class MetInspectedCondition : MonoBehaviour
+public class MetInspectedCondition : MonoBehaviour, IMet
 {
 
     [SerializeField] private Inspectable _requiredInspectable;

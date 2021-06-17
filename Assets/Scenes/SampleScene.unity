@@ -158,6 +158,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4e61ebce140c03941a3ba49c564c2a14, type: 2}
   - {fileID: 11400000, guid: 216dd37584d6fa44a82f94e1dc6f665c, type: 2}
   - {fileID: 11400000, guid: 7d5fdbdfad3d5684789c964abaa9027f, type: 2}
+  - {fileID: 11400000, guid: f24654fb6f67480458898068e62ca070, type: 2}
   - {fileID: 11400000, guid: 82337fbf2420752479e7b14fd031d01a, type: 2}
   - {fileID: 11400000, guid: 011e8bf4f1ee69543af25b4df88d1c12, type: 2}
 --- !u!4 &9141385
@@ -3678,7 +3679,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31636
+  m_Name: pb_Mesh17078
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7027,7 +7028,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-6714
+  m_Name: pb_Mesh16894
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7531,7 +7532,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16700
+  m_Name: pb_Mesh16778
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9928,7 +9929,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16606
+  m_Name: pb_Mesh16668
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10620,10 +10621,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1517686139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180e6b96a6af43318640d3e61749ce9f, type: 3}
+  m_Script: {fileID: 11500000, guid: 143d8666a16c4f0e929b6ee53e2806eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _requiredInspectable: {fileID: 1761498239}
+  _requiredFlag: {fileID: 11400000, guid: f24654fb6f67480458898068e62ca070, type: 2}
 --- !u!1 &1550474287
 GameObject:
   m_ObjectHideFlags: 0
@@ -12228,6 +12229,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: f24654fb6f67480458898068e62ca070, type: 2}
+        m_TargetAssemblyTypeName: GameFlag`1[[System.Boolean, mscorlib
+        m_MethodName: Set
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &1813773447
 GameObject:
   m_ObjectHideFlags: 0
@@ -12309,7 +12322,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3382
+  m_Name: pb_Mesh17204
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
